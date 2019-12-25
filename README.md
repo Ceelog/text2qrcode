@@ -10,6 +10,12 @@ A vscode extension generates qrcode from text.
 
 ![Text2QRCode](./docs/step-2.png)
 
+# Q & A
+
+Q: How to save qrcode image file?
+
+A: Just drag qrcode image to desktop.
+
 # Repository
 
 [Ceelog/text2qrcode](https://github.com/Ceelog/text2qrcode)
