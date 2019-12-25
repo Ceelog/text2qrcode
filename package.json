@@ -1,0 +1,64 @@
+{
+  "name": "text2qrcode",
+  "displayName": "Text2QRCode",
+  "description": "generate qrcode from text",
+  "version": "1.0.1",
+  "publisher": "Ceelog",
+  "engines": {
+    "vscode": "^1.39.0"
+  },
+  "icon": "text2qrcode.png",
+  "keywords": [
+    "qrcode",
+    "qr code",
+    "text to qrcode"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ceelog/text2qrcode.git"
+  },
+  "bugs": "https://github.com/Ceelog/text2qrcode/issues/",
+  "homepage": "https://github.com/Ceelog/text2qrcode/",
+  "activationEvents": [
+    "onCommand:extension.text2qrcode"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.text2qrcode",
+        "title": "Text2QRCode"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "extension.text2qrcode",
+          "title": "Text2QRCode"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "test": "node ./test/runTest.js",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.1",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.11.7",
+    "@types/vscode": "^1.39.0",
+    "eslint": "^6.6.0",
+    "glob": "^7.1.5",
+    "mocha": "^6.2.2",
+    "typescript": "^3.6.4",
+    "vscode-test": "^1.2.2"
+  },
+  "dependencies": {
+    "q": "^1.4.1",
+    "qrcode": "^1.4.4"
+  }
+}
