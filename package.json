@@ -2,7 +2,7 @@
   "name": "text2qrcode",
   "displayName": "Text2QRCode",
   "description": "generate qrcode from text",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "Ceelog",
   "engines": {
     "vscode": "^1.39.0"
